@@ -63,25 +63,26 @@ git clone https://github.com/joingithubcode/Crypto-Finance-Dashboard.git
 cd Crypto-Finance-Dashboard
 
 2. Backend Setup
-# Go to backend folder
+
+Go to backend folder
 cd backend
 
-# Create virtual environment
+Create virtual environment
 python -m venv venv
 
-# Activate virtual environment (Windows CMD)
+Activate virtual environment (Windows CMD)
 venv\Scripts\activate
 
-# Activate virtual environment (macOS/Linux)
+Activate virtual environment (macOS/Linux)
 source venv/bin/activate
 
-# Install dependencies
+Install dependencies
 pip install -r requirements.txt
 
-# Run migrations
+Run migrations
 python manage.py migrate
 
-# Start backend server
+Start backend server
 python manage.py runserver
 
 Backend will run on: http://localhost:8000
@@ -89,13 +90,14 @@ Backend will run on: http://localhost:8000
 3. Frontend Setup
 
 Open a new terminal and run:
-# Go to frontend folder
+
+Go to frontend folder
 cd frontend
 
-# Install dependencies
+Install dependencies
 npm install
 
-# Start frontend
+Start frontend
 npm run dev
 
 Frontend will run on: http://localhost:5173
