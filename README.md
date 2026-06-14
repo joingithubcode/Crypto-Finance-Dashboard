@@ -60,11 +60,12 @@ Crypto-Finance-Dashboard/
 1. Clone the Repository
 
 git clone https://github.com/joingithubcode/Crypto-Finance-Dashboard.git
+
 cd Crypto-Finance-Dashboard
 
 2. Backend Setup
 
-Go to backend folder
+### Go to backend folder
 
 cd backend
 
