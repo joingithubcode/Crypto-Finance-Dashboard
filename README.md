@@ -65,24 +65,32 @@ cd Crypto-Finance-Dashboard
 2. Backend Setup
 
 Go to backend folder
+
 cd backend
 
 Create virtual environment
+
+
 python -m venv venv
 
 Activate virtual environment (Windows CMD)
+
 venv\Scripts\activate
 
 Activate virtual environment (macOS/Linux)
+
 source venv/bin/activate
 
 Install dependencies
+
 pip install -r requirements.txt
 
 Run migrations
+
 python manage.py migrate
 
 Start backend server
+
 python manage.py runserver
 
 Backend will run on: http://localhost:8000
@@ -92,12 +100,15 @@ Backend will run on: http://localhost:8000
 Open a new terminal and run:
 
 Go to frontend folder
+
 cd frontend
 
 Install dependencies
+
 npm install
 
 Start frontend
+
 npm run dev
 
 Frontend will run on: http://localhost:5173
